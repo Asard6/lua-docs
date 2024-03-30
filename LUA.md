@@ -23,8 +23,8 @@ end)
 pokial pojdes do sluzby "StarterGui", vytvoris novu Instance: "ScreenGui", k tomu vytvoris Instance: "TextButton" a k tomu pridas "IntValue"(nazaciatku bude Value 0 a meno tohoto objektu je "Value") a do noveho scriptu napises:
 
 ```lua
---ten "Parent" je "TextButton"-- script.Parent.Text = script.Parent.Value.Value --takze sa text TextButtonu nastavi na hodnotu v objekte "Value"--
---znamena ze ked niekdo klikne na TextButton lavym klikom, nieco sa moze stat-- script.Parent.MouseButton1Click:Connect(function()
+script.Parent.Text = script.Parent.Value.Value --takze sa text TextButtonu nastavi na hodnotu v objekte "Value"--
+script.Parent.MouseButton1Click:Connect(function() --znamena ze ked niekdo klikne na TextButton lavym klikom, nieco sa moze stat--
 	script.Parent.Value.Value += 1 --"+=" znamena ze pridavas hodnotu do hodnoty--
 	script.Parent.Text = script.Parent.Value.Value
 end)
