@@ -8,7 +8,7 @@ part = script.Parent
 
 ## Ako pripojit funkciu k udalosti
 
-mozes vytvorit premennu podla scriptu (napriklad ked chces aby sa nieco stalo po tom co se nieco dotkne urciteho objektu (prkld. *part*)):
+mozes vytvorit premennu podla scriptu (napriklad ked chces aby sa nieco stalo po tom co sa nieco dotkne urciteho objektu (prkld. *part*)):
 pouzijeme predchoziu premennu
 
 ```lua
